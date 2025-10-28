@@ -1,0 +1,305 @@
+* {
+    text-align: center;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+
+}
+
+#nav-bar,
+#nav-bar-item {
+    float: left;
+}
+
+#nav-bar-item {
+    width: 33%;
+
+}
+
+#nav-bar-item a {
+    font-size: 1rem;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    z-index: 10;
+    width: 100%;
+}
+
+#nav-bar #nav-bar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+h1 {
+    color: black;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Montserrat', cursive;
+}
+
+#profile {
+    border-radius: 100%;
+    width: 150px;
+    height: 170px;
+    filter: grayscale(100%);
+}
+
+h2 {
+    color: F1F4F1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3:hover {
+
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    /*border:1px solid black;*/
+    color: #91A891;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    transition: font-size .5s;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #91A891 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #333333;
+    font-size: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #91A891;
+}
+
+ol,
+ul {
+    padding: 0;
+}
+
+li {
+    /*border:1px solid black;*/
+    font-size: .9rem;
+    text-decoration: none;
+    list-style-type: none;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+.top-container {
+    background-color: #91A891;
+    position: relative;
+    padding-top: 100px;
+    margin-top: 50px;
+
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #91A891;
+    padding: 50px 0 20px;
+    color: #333333;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 0px auto;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.contact-me-image {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-me-text {
+    width: 70%;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', cursive;
+
+}
+
+.skills {
+    margin: auto;
+
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.pro:hover {
+
+    font-size: 3.5rem;
+}
+
+.pro {
+    transition: font-size 1.0s;
+}
+
+.intro {
+    width: 100%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+#currentDate {
+    /*border:1px solid black;*/
+    color: #333333;
+    font-size: 0.75rem;
+    padding: 10px 0;
+    margin: 30px 0 0 0;
+}
+
+
+.footer-link:hover {
+    color: white;
+}
+
+.oak {
+    /*  position: absolute;*/
+    display: block;
+
+    margin: 0 auto;
+
+    width: 20%;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+#resume {
+    cursor: pointer;
+}
+
+.projects {
+    text-align: center;
+}
+
+.resume-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 1em auto 0 auto;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.resume-table th {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 0.8em;
+    text-align: left;
+}
+
+.resume-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 0.8em;
+    text-align: left;
+}
+
+.resume-table th {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.resume-table tr:hover {
+    background-color: #f3f3f3;
+    transition: 0.2s;
+}
+
+.cover-letter {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.letter-paragraph {
+    text-align: left;
+}
+
+#email {
+    /*border: 1px solid black;*/
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#signature {
+    /*border: 1px solid black;*/
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#big {
+    font-size: 2.0rem;
+}
+
+video {
+    margin-top: -30px;
+}
+
+form {
+    font-family: 'Montserrat', cursive;
+
+}
+
+fieldset {
+
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.goals {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}

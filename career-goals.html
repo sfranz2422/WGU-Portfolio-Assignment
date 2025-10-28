@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Steve Franz Cover Letter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="nav-bar">
+                <li id="nav-bar-item"><a href="resume.html">Resume</a></li>
+                <li id="nav-bar-item"><a href="cover-letter.html">Cover Letter</a></li>
+                <li id="nav-bar-item"><a href="career-goals.html">Career Goals</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="top-container">
+            <img class="oak" src="oak.png">
+        </section>
+        <section>
+            <h2>Career Goals</h2>
+            <article class="goals">
+                <h3>Goal</h3>
+                <p>My goal is to become a remote software developer. I plan to continue taking advanced courses and building real projects so I can find the area of software development that fits me best.</p>
+                <p>Right now I’m interested in both frontend and backend development, as well as game design. I want to keep improving those skills through more focused coursework and hands-on practice.</p>
+            </article>
+            <article class="goal-one">
+                <h3>Strengthen Backend Skills</h3>
+                <p>Go deeper into Flask, SQLite/PostgreSQL, and auth/session security for real users.</p>
+            </article>
+            <article class="goal-two">
+                <h3>Professional Readiness</h3>
+                <p>Build a single-page résumé website, practice interview-style questions, and start applying for remote dev roles.</p>
+            </article>
+        </section>
+        <section class="contact-me">
+            <h2>Contact Me</h2>
+            <div class="contact-me-image">
+                <img src="Life Code GIF.gif" alt="code-img">
+                <p></p>
+            </div>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="GET">
+                <fieldset>
+                    <label for="fname">First Name: <input type="text" id="fname" name="fname"></label><br><br>
+                    <label for="lname">Last Name: <input type="text" id="lname" name="fname"></label><br><br>
+                    <label for="cname">Company Name: <input type="text" id="cname" name="fname"></label><br><br>
+                    <label for="email">Email: <input type="email" id="email" name="fname"></label><br><br>
+                    <label for="phone">Phone: <input type="tel" id="phone" name="fname"></label><br><br><br>
+                    <textarea rows="5" cols="40" id="message" placeholder="Enter your message" name="fname"></textarea><br><br>
+                    <fieldset>
+                        <label>Best Contact Time:</label>
+                        <label for="am">a.m</label>
+                        <input type="radio" id="am" value="am" name="fname">
+                        <label for="pm">p.m</label>
+                        <input type="radio" id="pm" value="pm" name="fname">
+                        <label for="any">Anytime</label>
+                        <input type="radio" id=any value="anytime" name="fname">
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <label>Best Contact Method:</label>
+                        <label for="phone">Phone</label>
+                        <input type="checkbox" id="phone" name="fname">
+                        <label for="email">Email</label>
+                        <input type="checkbox" id="email" name="fname">
+                        <label for="text">Text</label>
+                        <input type="checkbox" id="text" name="fname">
+                    </fieldset>
+                </fieldset>
+            </form>
+            <p class="contact-me-text">I started learning to code when I was 12 years old because I wanted to make my own video games. Currently I love designing and developing mobile and web applications. Check out one of my recent games below. I made Asteroido for the Quiz Playground Web app.</p>
+            </div>
+            <video width="640" height="480" controls>
+                <source src="Asteroido.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <footer class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/steve-j-franz-3538942b/">LinkedIn</a>
+            <a class="footer-link" href="https://franz-portfolio.replit.app/">Interactive Portfolio</a>
+            <a class="footer-link" href="https://github.com/sfranz2422">GitHub</a>
+            <a class="footer-link" target="_blank" id="resume" download="Franz Resume.pdf" href="resume.pdf">Download Resume</a>
+            <div>
+                <div>
+                    <br>
+                    <p>Stoic Words to Live By</p>
+                    <audio controls>
+                        <source src="Pythagoras_Quote.wav" type="audio/wav">
+                        <source src="Pythagoras_Quote.mp3" type="audio/mp3">
+                        File Can't be played on this browser.
+                    </audio>
+                </div>
+                <p id="currentDate"></p>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
