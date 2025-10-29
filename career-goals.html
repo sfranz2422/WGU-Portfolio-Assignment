@@ -47,8 +47,8 @@
             </div>
             <form action="https://wp.zybooks.com/form-viewer.php" method="GET">
                 <fieldset>
-                    <label for="fname">First Name: <input type="text" id="fname" name="fname"></label><br><br>
-                    <label for="lname">Last Name: <input type="text" id="lname" name="fname"></label><br><br>
+                    <label for="fname">First Name: <input type="text" id="fname" name="fname" required></label><br><br>
+                    <label for="lname">Last Name: <input type="text" id="lname" name="fname" required></label><br><br>
                     <label for="cname">Company Name: <input type="text" id="cname" name="fname"></label><br><br>
                     <label for="email">Email: <input type="email" id="email" name="fname"></label><br><br>
                     <label for="phone">Phone: <input type="tel" id="phone" name="fname"></label><br><br><br>
@@ -56,22 +56,24 @@
                     <fieldset>
                         <label>Best Contact Time:</label>
                         <label for="am">a.m</label>
-                        <input type="radio" id="am" value="am" name="fname">
+                        <input type="radio" id="am" value="am" name="fname" required>
                         <label for="pm">p.m</label>
-                        <input type="radio" id="pm" value="pm" name="fname">
+                        <input type="radio" id="pm" value="pm" name="fname" required>
                         <label for="any">Anytime</label>
-                        <input type="radio" id=any value="anytime" name="fname">
+                        <input type="radio" id=any value="anytime" name="fname" required>
                     </fieldset>
                     <br>
                     <fieldset>
-                        <label>Best Contact Method:</label>
-                        <label for="phone">Phone</label>
-                        <input type="checkbox" id="phone" name="fname">
-                        <label for="email">Email</label>
-                        <input type="checkbox" id="email" name="fname">
-                        <label for="text">Text</label>
-                        <input type="checkbox" id="text" name="fname">
+                        <label for="bestMethod">Best Contact Method:</label>
+                        <select name="bestMethod" id="bestMethod" required>
+                            <option value=""></option>
+                            <option value="phone">Phone</option>
+                            <option value="email">Email</option>
+                            <option value="text">Text</option>
+                        </select>
                     </fieldset>
+                    <br><br>
+                    <input type="submit" value="Submit">
                 </fieldset>
             </form>
             <p class="contact-me-text">I started learning to code when I was 12 years old because I wanted to make my own video games. Currently I love designing and developing mobile and web applications. Check out one of my recent games below. I made Asteroido for the Quiz Playground Web app.</p>
